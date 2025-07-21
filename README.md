@@ -37,7 +37,7 @@ Un script completo en bash para gestionar servidores de Minecraft de forma senci
 - **Sistema operativo**: Linux (Ubuntu/Debian recomendado)
 - **Java 21**: `sudo apt install openjdk-21-jre`
 - **Screen**: `sudo apt install screen`
-- **Servidor Purpur**: Última versión disponible en [PurpurMC.org](https://purpurmc.org/downloads)
+- **Servidor Folia**: Última versión disponible en [Folia PaperMC](https://papermc.io/downloads#Folia)
 - **Permisos**: Lectura y escritura en el directorio del servidor
 
 ## 🛠️ Instalación
@@ -53,9 +53,9 @@ cd minecraft-server-manager
 chmod +x minecraft_server_manager.sh
 ```
 
-3. **Descarga el servidor Purpur**:
-   - Ve a [PurpurMC.org](https://purpurmc.org/downloads)
-   - Descarga la última versión para Minecraft 1.21.x
+3. **Descarga el servidor Folia**:
+   - Ve a [Folia PaperMC](https://papermc.io/downloads/folia)
+   - Descarga la última versión para Minecraft 1.20.x
    - Coloca el archivo JAR en tu directorio del servidor
 
 4. **Ejecuta el script**:
@@ -68,7 +68,7 @@ chmod +x minecraft_server_manager.sh
 El script espera que tu servidor de Minecraft tenga la siguiente estructura:
 ```
 /ruta/a/tu/servidor/
-├── purpur-1.21.x-xxxx.jar  # Última versión de Purpur
+├── folia-1.20.x-xxxx.jar  # Última versión de Folia
 ├── server.properties
 ├── world/
 ├── world_nether/
@@ -80,7 +80,7 @@ El script espera que tu servidor de Minecraft tenga la siguiente estructura:
 └── backups/  # (se crea automáticamente)
 ```
 
-> **⚠️ Importante**: Este script está configurado para funcionar con **Purpur Server**. Asegúrate de usar la última versión disponible en [PurpurMC.org](https://purpurmc.org/downloads) para obtener el mejor rendimiento y las últimas características.
+> **⚠️ Importante**: Este script está configurado para funcionar con **Folia Server**. Asegúrate de usar la última versión disponible en [Folia PaperMC](https://papermc.io/downloads/folia) para obtener el mejor rendimiento y las últimas características.
 
 ## 🎯 Uso
 
@@ -136,12 +136,12 @@ Una vez iniciado el servidor, puedes usar estos comandos:
 ## ⚠️ Consideraciones Importantes
 
 - El script verifica automáticamente las dependencias necesarias
-- **Requiere Purpur Server**: Asegúrate de tener la última versión de Purpur descargada
+- **Requiere Folia Server**: Asegúrate de tener la última versión de Folia descargada
 - De forma opcional, se crean backups automáticos antes de cada inicio
 - Los logs del servidor se guardan con timestamp
 - El servidor se detiene de forma controlada con aviso a los jugadores
 - Se requieren permisos adecuados en el directorio del servidor
-- El script está optimizado para **Java 21** y **Purpur 1.21.x**
+- El script está optimizado para **Java 21** y **Folia 1.21.6.x**
 
 ## 🤝 Contribuciones
 
